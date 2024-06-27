@@ -1,0 +1,52 @@
+.dashboard {
+    padding: 20px;
+  }
+  
+  /* styles/Dashboard.module.css */
+.dashboard {
+    padding: 20px;
+    background-color: #f0f2f5;
+  }
+  
+  .dashboard h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .chartsSection {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .chart {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+    text-align: center;
+  }
+  
+  .chart:last-child {
+    margin-right: 0;
+  }
+  
+  .chart h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .transactionsSection {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .transactionsSection h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  

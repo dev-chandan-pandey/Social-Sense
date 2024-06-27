@@ -1,0 +1,203 @@
+/* styles/ProfileCard.module.css */
+/* .profileCard {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .avatar {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    margin: 10px 0 5px;
+    font-size: 20px;
+  }
+  
+  p {
+    margin: 0;
+    color: #666;
+  } */
+  /* styles/ProfileCard.module.css */
+/* .profileCard {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profileCard .avatar {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .profileCard h2 {
+    margin: 10px 0 5px;
+    font-size: 20px;
+  }
+  
+  .profileCard p {
+    margin: 0;
+    color: #666;
+  } */
+  /* styles/ProfileCard.module.css */
+/* .profileCard {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  .profileImage {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .profileName {
+    margin: 10px 0 5px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .profileTitle {
+    color: #666;
+    font-size: 14px;
+  } */
+  /* styles/ProfileCard.module.css */
+/* .profileCard {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  .profileCard h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #222;
+  }
+  
+  .profileCard p {
+    margin: 0;
+    color: #555;
+  } */
+  /* styles/ProfileCard.module.css */
+/* .profileCard {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  border: 1px solid var(--primary-color);
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.profileCard h2 {
+  color: var(--primary-color);
+}
+
+.profileCard p {
+  color: var(--secondary-color);
+} */
+/* styles/ProfileCard.module.css */
+/* .profileCard {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  border: 1px solid var(--primary-color);
+  padding: 1.5rem;
+  border-radius: 8px;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.profileCard h2 {
+  margin-bottom: 1rem;
+  color: var(--primary-color);
+}
+
+.profileCard p {
+  margin: 0.5rem 0;
+}
+
+.profileCard .profileImage {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+} */
+/* styles/ProfileCard.module.css */
+/* .profileCard {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  border: 1px solid var(--primary-color);
+  padding: 1.5rem;
+  border-radius: 8px;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.profileCard h2 {
+  margin-bottom: 1rem;
+  color: var(--primary-color);
+}
+
+.profileCard p {
+  margin: 0.5rem 0;
+}
+
+.profileCard .profileImage {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+} */
+.profileCard {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profilePic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.biography {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+/* Theme-specific styles */
+.default {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.light {
+  background-color: #f0f0f0;
+  color: #000000;
+}
+
+.dark {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.blue {
+  background-color: #add8e6;
+  color: #000000;
+}

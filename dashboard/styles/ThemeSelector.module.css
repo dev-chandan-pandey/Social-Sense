@@ -1,0 +1,79 @@
+/* styles/ThemeSelector.module.css */
+/* .themeSelector {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  .themeSelector h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #222;
+  }
+  
+  .themeSelector button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .themeSelector button:hover {
+    background-color: #0056b3;
+  } */
+  /* .themeSelector {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 1rem 0;
+  }
+  
+.themeSelector label {
+  margin-right: 0.5rem;
+  font-weight: bold;
+}
+  .themeSelector div {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 2px solid transparent;
+  }
+  .themeSelector select {
+    padding: 0.5rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 4px;
+  }
+  .themeSelector div:hover,
+  .themeSelector div.active {
+    border-color: #007bff;
+  } */
+  .themeSelector {
+    padding: 20px;
+  }
+  
+  .themes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .theme {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .theme.selected {
+    border: 2px solid #000;
+  }
+  

@@ -1,0 +1,25 @@
+.charts {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .chartContainer {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+    text-align: center;
+  }
+  
+  .chartContainer:last-child {
+    margin-right: 0;
+  }
+  
+  .chartContainer h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
