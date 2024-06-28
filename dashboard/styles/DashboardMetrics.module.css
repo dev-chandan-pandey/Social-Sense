@@ -1,170 +1,27 @@
-/* styles/DashboardMetrics.module.css */
-/* .metricsContainer {
-    display: flex;
-    justify-content: space-around;
-    margin: 20px 0;
-  }
-  
-  .metricCard {
-    background-color: #f0f0f0;
-    border-radius: 8px;
-    padding: 20px;
-    text-align: center;
-    flex: 1;
-    margin: 0 10px;
-  }
-  
-  .metricCard h3 {
-    margin: 0;
-    font-size: 18px;
-  }
-  
-  .metricCard p {
-    margin: 10px 0 0;
-    font-size: 24px;
-    font-weight: bold;
-  } */
-  /* styles/DashboardMetrics.module.css */
-/* .metrics {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
-  }
-  
-  .metric {
-    background-color: #fff;
-    border-radius: 8px;
-    padding: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    flex: 1;
-    margin: 0 10px;
-  }
-  
-  .metric h3 {
-    margin-bottom: 10px;
-    font-size: 18px;
-  }
-  
-  .metric p {
-    font-size: 24px;
-    font-weight: bold;
-  } */
-  /* styles/DashboardMetrics.module.css */
-/* .dashboardMetrics {
-    background-color: #fff;
-    border-radius: 12px;
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-top: 20px;
-  }
-  
-  .dashboardMetrics h2 {
-    margin-bottom: 20px;
-    font-size: 24px;
-    color: #222;
-  }
-  
-  .metric {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 0;
-    border-bottom: 1px solid #eee;
-  }
-  
-  .metricLabel {
-    font-weight: bold;
-    font-size: 16px;
-  }
-  
-  .metricValue {
-    color: #666;
-  }
-   */
-   /* .dashboardMetrics {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
-  }
-  
-  .metricCard {
-    flex: 1;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin-right: 20px;
-    text-align: center;
-  }
-  
-  .metricCard:last-child {
-    margin-right: 0;
-  }
-  
-  .metricCard h3 {
-    font-size: 20px;
-    margin-bottom: 10px;
-  }
-  
-  .metricCard p {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 5px;
-  }
-  
-  .metricCard span {
-    color: green;
-  } */
-  /* styles/DashboardMetrics.module.css */
-/* .metricsContainer {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
 
-.metricCard {
-  background-color: white;
-  border-radius: 8px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  padding: 20px;
-  margin: 10px;
-  flex: 1 1 200px;
-  text-align: center;
-}
-
-.metricCard h2 {
-  font-size: 1.5rem;
-  margin-bottom: 10px;
-}
-
-.metricCard p {
-  font-size: 1.25rem;
-} */
-
-/* styles/DashboardMetrics.module.css */
 .dashboardMetrics {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 2rem;
-  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 .metric {
-  background-color: var(--background-color);
-  color: var(--text-color);
-  border: 1px solid var(--primary-color);
-  padding: 1.5rem;
-  border-radius: 8px;
+  flex: 1;
+  min-width: 200px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
 
 .metric h3 {
-  margin-bottom: 1rem;
-  color: var(--primary-color);
+  margin-bottom: 10px;
+  font-size: 18px;
 }
 
 .metric p {
-  font-size: 1.5rem;
+  font-size: 24px;
   font-weight: bold;
 }
 

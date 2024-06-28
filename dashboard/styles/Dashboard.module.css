@@ -49,4 +49,19 @@
     font-size: 20px;
     margin-bottom: 10px;
   }
+  .dashboardPage {
+    padding: 20px;
+  }
+  /*  just to look */
+  .recentActivity {
+    margin-top: 40px;
+  }
   
+  .recentActivity h3 {
+    margin-bottom: 10px;
+  }
+  
+  .recentActivity p {
+    margin-bottom: 5px;
+  }
+  /* end */

@@ -1,6 +1,15 @@
-// pages/inbox.js
+
 import React from 'react';
+import Inbox from '../components/Inbox';
+import styles from '../styles/InboxPage.module.css';
 
-const Inbox = () => <div>Inbox Page</div>;
+const InboxPage = () => {
+  return (
+    <div className={styles.inboxPage}>
+      <Inbox />
+    </div>
+  );
+};
 
-export default Inbox;
+export default InboxPage;
+

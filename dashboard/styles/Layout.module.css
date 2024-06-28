@@ -1,4 +1,4 @@
-
+/* 
 .container {
   display: flex;
 }
@@ -7,10 +7,19 @@
   flex: 1;
   padding: 20px;
   background-color: #f0f0f0;
-  margin-left: 250px; /* Adjust based on sidebar width */
+  margin-left: 250px; /* Adjust based on sidebar width 
+} */
+
+
+.layout {
+  display: flex;
 }
 
-
+.content {
+  margin-left: 250px;
+  padding: 20px;
+  width: calc(100% - 250px);
+}
 
 
 

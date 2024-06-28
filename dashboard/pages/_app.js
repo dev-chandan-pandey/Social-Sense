@@ -55,11 +55,12 @@
 //       <Component {...pageProps} />
 //     </Layout>
 //   );
-// }
-
-// export default MyApp;
+//}
+// pages/_app.js
+import React from 'react';
 import Layout from '../components/Layout';
 import '../styles/globals.css';
+import '../lib/fontawesome'; // Import Font Awesome library
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -70,6 +71,9 @@ function MyApp({ Component, pageProps }) {
 }
 
 export default MyApp;
+
+
+
 
 
 

@@ -1,0 +1,24 @@
+/* styles/Recommendation.module.css */
+.recommendation {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .recommendation h2 {
+    margin-bottom: 20px;
+  }
+  
+  .recommendation ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .recommendation ul li {
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  

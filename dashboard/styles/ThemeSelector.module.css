@@ -1,64 +1,62 @@
-/* styles/ThemeSelector.module.css */
-/* .themeSelector {
-    background-color: #fff;
-    border-radius: 12px;
+/* 
+
+   .themeSelector {
     padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-top: 20px;
-  }
-  
-  .themeSelector h2 {
-    margin-bottom: 20px;
-    font-size: 24px;
-    color: #222;
-  }
-  
-  .themeSelector button {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .themeSelector button:hover {
-    background-color: #0056b3;
-  } */
-  /* .themeSelector {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    margin: 1rem 0;
-  }
-  
-.themeSelector label {
-  margin-right: 0.5rem;
-  font-weight: bold;
-}
-  .themeSelector div {
-    width: 40px;
-    height: 40px;
+    background-color: #f9f9f9;
     border-radius: 8px;
-    cursor: pointer;
-    border: 2px solid transparent;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  .themeSelector select {
-    padding: 0.5rem;
-    border: 1px solid var(--primary-color);
-    border-radius: 4px;
-  }
-  .themeSelector div:hover,
-  .themeSelector div.active {
-    border-color: #007bff;
-  } */
-  .themeSelector {
-    padding: 20px;
+  
+  .themeSelector h3 {
+    margin-bottom: 15px;
+    font-size: 1.2rem;
   }
   
   .themes {
     display: flex;
+    gap: 10px;
+  }
+  
+  .theme {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 2px solid transparent;
+    transition: transform 0.2s;
+  }
+  
+  .theme:hover {
+    transform: scale(1.05);
+  }
+  
+  .selected {
+    border-color: #0070f3;
+    transform: scale(1.1);
+  } */
+  /* .themeSelector {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .themeSelector h3 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    color: #333;
+    text-align: center;
+  }
+  
+  .themes {
+    display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 10px;
   }
@@ -66,14 +64,124 @@
   .theme {
     width: 100px;
     height: 100px;
-    border-radius: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    border-radius: 8px;
+    border: 2px solid transparent;
+    transition: transform 0.2s, border-color 0.2s;
   }
   
-  .theme.selected {
-    border: 2px solid #000;
+  .theme:hover {
+    transform: scale(1.05);
+  }
+  
+  .selected {
+    border-color: #0070f3;
+    transform: scale(1.1);
+  }
+   */
+
+   /* .themeSelector {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .themeSelector h3 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    color: #333;
+    text-align: left;
+  }
+  
+  .themes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  
+  .theme {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 2px solid transparent;
+    transition: transform 0.2s, border-color 0.2s;
+    text-transform: capitalize;
+  }
+  
+  .theme:hover {
+    transform: scale(1.05);
+  }
+  
+  .selected {
+    border-color: #0070f3;
+    transform: scale(1.1);
+  }
+   */
+
+   .themeSelector {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .themeSelector h3 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .themeSection {
+    margin-bottom: 20px;
+  }
+  
+  .themeSection h4 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  .themes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  
+  .theme {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 2px solid transparent;
+    transition: transform 0.2s, border-color 0.2s;
+    text-transform: capitalize;
+  }
+  
+  .theme:hover {
+    transform: scale(1.05);
+  }
+  
+  .selected {
+    border-color: #0070f3;
+    transform: scale(1.1);
   }
   

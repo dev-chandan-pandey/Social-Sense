@@ -85,3 +85,7 @@ body {
   background-color: var(--background-color);
   color: var(--text-color);
 }
+/* styles/globals.css */
+body {
+  font-family: 'Roboto', 'Open Sans', sans-serif;
+}

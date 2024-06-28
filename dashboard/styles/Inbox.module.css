@@ -1,0 +1,65 @@
+/* styles/Inbox.module.css */
+/* .inboxPage {
+    padding: 20px;
+  }
+  
+  .messageList {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .messageCard {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .messageCard h2 {
+    margin: 0 0 10px;
+  }
+  
+  .messageCard p {
+    margin: 0;
+  } */
+  /* styles/Inbox.module.css */
+.inboxContainer {
+    padding: 20px;
+  }
+  
+  .inboxContainer h1 {
+    margin-bottom: 20px;
+  }
+  
+  .messageList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .messageItem {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .messageHeader {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+  
+  .messageFrom {
+    font-weight: bold;
+  }
+  
+  .messageDate {
+    color: #888;
+  }
+  
+  .messageSubject {
+    font-size: 16px;
+  }
+  

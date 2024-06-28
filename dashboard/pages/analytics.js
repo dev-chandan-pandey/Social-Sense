@@ -1,28 +1,14 @@
-// pages/analytics.js
-// const Analytics = () => <div>Analytics Page</div>;
-// export default Analytics;
-// components/ActivityFeed.js
+
 import React from 'react';
-import styles from '../styles/ActivityFeed.module.css';
+import Analytics from '../components/Analytics';
+import styles from '../styles/AnalyticsPage.module.css';
 
-const ActivityFeed = () => {
-  const activities = [
-    { id: 1, activity: 'User A posted a new comment.' },
-    { id: 2, activity: 'User B liked your post.' },
-    { id: 3, activity: 'User C started following you.' },
-    // Add more dummy activities
-  ];
-
+const AnalyticsPage = () => {
   return (
-    <div className={styles.activityFeed}>
-      <h2>Recent Activity</h2>
-      <ul>
-        {activities.map((activity) => (
-          <li key={activity.id}>{activity.activity}</li>
-        ))}
-      </ul>
+    <div className={styles.analyticsPage}>
+      <Analytics />
     </div>
   );
 };
 
-export default ActivityFeed;
+export default AnalyticsPage;

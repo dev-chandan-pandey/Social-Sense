@@ -1,48 +1,4 @@
-// components/Profile.js
-// import React from 'react';
-// import styles from '../styles/Profile.module.css';
 
-// const Profile = () => {
-//   return (
-//     <div className={styles.profile}>
-//       <h2>User Profile</h2>
-//       <div className={styles.info}>
-//         <div className={styles.infoItem}>
-//           <span className={styles.label}>Name:</span>
-//           <span className={styles.value}>John Doe</span>
-//         </div>
-//         <div className={styles.infoItem}>
-//           <span className={styles.label}>Email:</span>
-//           <span className={styles.value}>john.doe@example.com</span>
-//         </div>
-//         <div className={styles.infoItem}>
-//           <span className={styles.label}>Role:</span>
-//           <span className={styles.value}>Administrator</span>
-//         </div>
-//         <div className={styles.infoItem}>
-//           <span className={styles.label}>Joined:</span>
-//           <span className={styles.value}>January 1, 2023</span>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Profile;
-// pages/profile.js
-// import React from 'react';
-// import Layout from '../components/Layout';
-// import Profile from '../components/Profile';
-
-// const ProfilePage = () => {
-//   return (
-//     <Layout>
-//       <Profile />
-//     </Layout>
-//   );
-// };
-
-// export default ProfilePage;
 import React, { useState } from 'react';
 import styles from '../styles/Profile.module.css';
 

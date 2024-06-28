@@ -1,47 +1,112 @@
-/* .themesPage {
-  margin-left: 260px; /* Match sidebar width + margin 
-  padding: 40px 20px;
-}
-
-.applySkin {
-  font-size: 24px;
-  font-weight: bold;
-  margin-bottom: 20px;
-}
-
-.colorSections {
-  display: flex;
-  gap: 40px;
-  flex-wrap: wrap;
-}
-
-.colorSections > div {
-  flex: 1;
-  min-width: 200px;
-}
-
-.colorSections h2 {
-  font-size: 18px;
-  margin-bottom: 10px;
-}
-
-.profilePreview {
-  margin-top: 40px;
-  padding: 20px;
-  border: 1px solid #dee2e6;
-  border-radius: 8px;
-}
-
-.profilePreview h2 {
-  margin-top: 0;
-}
-
-.profilePreview p {
-  margin: 5px 0;
-} */
+/* 
 .themesPage {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 20px;
+}
+
+.themesPage > *:not(:last-child) {
+  margin-bottom: 20px;
+} */
+/* .themesPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.themesPage > *:not(:last-child) {
+  margin-bottom: 20px;
+} */
+/* .themesPage {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.themesPage > *:not(:last-child) {
+  margin-right: 20px;
+} */
+.themesPage {
+  padding: 20px;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header h2 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+}
+
+.user span {
+  margin-right: 10px;
+  color: #666;
+}
+
+.profilePic {
+  width: 40px;
+  height: 40px;
+  background-color: #ccc;
+  border-radius: 50%;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.themeSelectorWrapper {
+  width: 40%;
+}
+
+.themeSelectorHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 20px;
+}
+
+.themeSelectorHeader span {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.buttons {
+  display: flex;
+}
+
+.customButton,
+.saveButton {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.customButton {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.saveButton {
+  background-color: #333;
+  color: #fff;
 }
